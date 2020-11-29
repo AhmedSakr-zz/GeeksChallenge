@@ -1,0 +1,12 @@
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\bin\Debug\netstandard2.1\GeeksChallenge.Domain.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.csprojAssemblyReference.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.AssemblyInfoInputs.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.AssemblyInfo.cs
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\bin\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.deps.json
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\bin\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\bin\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.pdb
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\bin\Debug\netstandard2.1\GeeksChallenge.Domain.pdb
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.csproj.CoreCompileInputs.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.csproj.CopyComplete
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.CloudLibrary\obj\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.pdb

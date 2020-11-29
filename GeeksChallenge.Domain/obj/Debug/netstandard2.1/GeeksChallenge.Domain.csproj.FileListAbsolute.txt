@@ -1,0 +1,9 @@
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\bin\Debug\netstandard2.1\GeeksChallenge.Domain.deps.json
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\bin\Debug\netstandard2.1\GeeksChallenge.Domain.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\bin\Debug\netstandard2.1\GeeksChallenge.Domain.pdb
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\obj\Debug\netstandard2.1\GeeksChallenge.Domain.csprojAssemblyReference.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\obj\Debug\netstandard2.1\GeeksChallenge.Domain.AssemblyInfoInputs.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\obj\Debug\netstandard2.1\GeeksChallenge.Domain.AssemblyInfo.cs
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\obj\Debug\netstandard2.1\GeeksChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\obj\Debug\netstandard2.1\GeeksChallenge.Domain.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Domain\obj\Debug\netstandard2.1\GeeksChallenge.Domain.pdb

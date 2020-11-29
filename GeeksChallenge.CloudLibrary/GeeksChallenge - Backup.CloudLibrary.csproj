@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\GeeksChallenge.Domain\GeeksChallenge.Domain.csproj" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="Services\Implementations\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+</Project>

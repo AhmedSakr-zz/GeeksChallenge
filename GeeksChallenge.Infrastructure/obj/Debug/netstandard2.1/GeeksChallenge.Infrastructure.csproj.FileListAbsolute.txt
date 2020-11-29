@@ -1,0 +1,14 @@
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.Infrastructure.deps.json
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.Infrastructure.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.Infrastructure.pdb
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.Domain.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.CloudLibrary.pdb
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\bin\Debug\netstandard2.1\GeeksChallenge.Domain.pdb
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.csprojAssemblyReference.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.AssemblyInfo.cs
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.csproj.CopyComplete
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.dll
+C:\Users\asakr\source\repos\GeeksChallenge\GeeksChallenge.Infrastructure\obj\Debug\netstandard2.1\GeeksChallenge.Infrastructure.pdb
