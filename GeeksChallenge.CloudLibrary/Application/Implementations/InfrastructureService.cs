@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using GeeksChallenge.CloudLibrary.Application.Interfaces;
 using GeeksChallenge.CloudLibrary.Dtos;
+using GeeksChallenge.CloudLibrary.ServiceProvider;
 using GeeksChallenge.CloudLibrary.Services.CloudProvider;
 using GeeksChallenge.CloudLibrary.Validations;
 using GeeksChallenge.Domain.Common;
@@ -62,8 +63,15 @@ namespace GeeksChallenge.CloudLibrary.Application.Implementations
             var serviceManager = new ServiceManager.ServiceManager();
             var igsProvider = new IGSCloudServices();
 
-            //all service providers must subscribe the create event
-            //another solution is to use reflection to call create method in all service provider assembly
+            //now we need to notify cloud provider to make them create the infrastructure ,there are 2 methods
+            //first method is to use reflection and query assembly and get all service providers then call create method like below
+            //var allCloudProvider = typeof(CloudServices).Assembly.ExportedTypes.Where(t =>
+            //        typeof(CloudServices).IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract)
+            //    .Select(Activator.CreateInstance).Cast<CloudServices>().ToList();
+            //allCloudProvider.ForEach(t=>t.OnCreateService(/*method parameters goes here */));
+
+            //second method is to fire event and make all provider subscribe to that event like below
+            // all providers must subscribe 
             serviceManager.CreateInfrastructure += igsProvider.OnCreateService;
             var created = serviceManager.Create(postDto);
 
@@ -78,21 +86,14 @@ namespace GeeksChallenge.CloudLibrary.Application.Implementations
             #region Add to database
             var infrastructure = _mapper.Map<Infrastructure>(postDto);
             await _context.Infrastructures.AddAsync(infrastructure);
-            try
-            {
-                var effectedRows = _context.SaveChanges();
-                if (effectedRows == 0)
-                {
-                    clientMessage.ClientStatusCode = AppEnums.OperationStatus.Error;
-                    clientMessage.ClientMessageContent = new List<string> { "Error : an error occured while saving infrastructure details to database" };
-                    return clientMessage;
-                }
-            }
-            catch (Exception ex)
-            {
-                var t = ex.Message;
-            }
 
+            var effectedRows = _context.SaveChanges();
+            if (effectedRows == 0)
+            {
+                clientMessage.ClientStatusCode = AppEnums.OperationStatus.Error;
+                clientMessage.ClientMessageContent = new List<string> { "Error : an error occured while saving infrastructure details to database" };
+                return clientMessage;
+            }
 
             clientMessage.ClientStatusCode = AppEnums.OperationStatus.Ok;
             clientMessage.ReturnedData = infrastructure.Id;
